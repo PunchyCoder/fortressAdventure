@@ -1,13 +1,21 @@
-body {
+ body {
 	color: white;
 	background-color: black;
 	margin-left: 15%;
 }
 
-.message {
+.box {
 	font-family: sans-serif;
 	display: inline-block;
 	border: solid 3px white;
 	border-radius: 15px;
 	padding: 10px 15px;
+}
+
+.message {
+	/*font-family: sans-serif;
+	display: inline-block;
+	border: solid 3px white;
+	border-radius: 15px;
+	padding: 10px 15px;*/
 }

@@ -1,19 +1,28 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>Text Fortress</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body> 
-	<h1>Text Fortress</h1>
-	<p>welcome</p>
+	<h1>Fortress Adventure</h1>
+
+	<div id='location'></div>
 
 	<div class="pics"></div>
+
+	<div id="command-list" class="box">
+		<h4>Command List:</h4>
+		<ul>
+			<li>torch</li>
+			<li>door</li>
+		</ul>
+	</div>
 
 	<div class="container"></div>
 
 	<form>
-		<input id="command-input" type="text" name="text-input">
+		<input id="command-input" type="text" name="text-input" placeholder="COMMAND...">
 		<input type="submit" name="submit-command" value="Enter">
 	</form>
 
