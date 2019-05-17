@@ -1,2 +1,2 @@
-# fortressAdventure
-a text-based web game
+# fortressAdventure      
+a text-based web game (+--○○)
