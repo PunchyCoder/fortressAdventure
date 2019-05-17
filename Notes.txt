@@ -1,0 +1,48 @@
+Command System: 
+	type commands into an text input;
+		[torch, attack, spells, use, etc...]
+
+Battle SYSTEM:
+	turn-based
+	1-on-1 (for now...)
+	execute attacks and spells
+
+Stat SYSTEM:
+	[power, defense, speed, health, spell charges, exp...]
+
+Equipment:
+	weapons:
+		[dagger, Sword, spear, axe, etc...]
+	armor:
+		[buckler, round shield, leather armor, chainmail, plate mail, etc...]
+	items:
+		[ancient coin(s), torch, gems, potions, etc...]
+	spells:
+		[fireball, cold cone, whirlwind, shocking grasp, light(torch), etc...]
+
+
+
+	const weapon = {
+			dagger: {name: "dagger", atk-bonus: 1},
+			sword: {name: "sword", atk-bonus: 2},
+			greatsword: {name: "greatsword", atk-bonus: 3, greatswing: true},
+			spear: {name: "spear", atk-bonus: 2, spear-hurl: true}
+		}
+
+	const item = {
+			torch: {name: "torch"},
+			potion: {name: "red potion", effect: "Restores 5 HP"}
+		}
+
+	const armor = {
+			buckler: {name: "buckler", def-bonus: 1},
+			leatherArmor: {name: "leather armor", def-bonus: 2},
+			chainmail: {name: "chainmail", def-bonus: 1},
+			ring: {name: "ring of strength", atk-bonus: 3}
+		}
+
+	const spell = {
+			fireball: {name: "fireball", power: 5}
+		}
+
+	const inventory = [item.torch];
